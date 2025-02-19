@@ -1,6 +1,6 @@
 [book]
-authors = ["Bharath"]
+authors = ["Akshay & Bharath"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Frida Workshop"
+title = "Instrumenting the Unknown: Leveraging Frida for Binary Analysis on Linux"
