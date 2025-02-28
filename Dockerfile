@@ -29,7 +29,7 @@ RUN git clone https://github.com/alexdantas/nSnake.git /opt/nsnake && \
     make install
 
 # Set the working directory to /opt/nsnake
-WORKDIR /opt/nsnake
+WORKDIR /home/ubuntu
 
 # Add the virtual environment to PATH
 ENV PATH="/opt/venv/bin:$PATH"
