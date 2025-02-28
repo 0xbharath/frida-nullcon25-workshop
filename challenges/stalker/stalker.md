@@ -1,4 +1,3 @@
-Below is a comprehensive explanation in Markdown format:
 
 ---
 
