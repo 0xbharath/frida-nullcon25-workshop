@@ -9,7 +9,7 @@ This exercise combines a custom C binary with an advanced Frida Stalker script t
 
 ## 1. What Does the Binary Do? (Black‑Box View)
 
-The binary, `fuzzer_demo`, operates interactively and processes user input through a simple custom algorithm:
+The binary, `openssl`, operates interactively and processes user input through a simple custom algorithm:
 
 - **Interactive Input Processing:**
   - The program continuously prompts the user for input.
