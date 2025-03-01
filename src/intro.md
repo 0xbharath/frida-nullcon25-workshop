@@ -6,15 +6,9 @@ Frida is a **dynamic code instrumentation toolkit**. It lets you **inject snippe
 - Frida also provides you with some simple tools built on top of the Frida API.
 - Frida also helps you rapidly build/protype custom tools to instrument a binary to achieve your security testing goals
 
-## Few things you can achieve with Frida
-
-
 ## What does Frida provide out-of-the-box?
 
-- Frida tools DOCS
+- Frida tools
 - Frida REPL 
 - Frida bindings
 - More thing ...
-
-## High-level architecture
-
