@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     python3-venv \
     vim \
     nano \
+    file \
     && rm -rf /var/lib/apt/lists/*
 
 # Create a virtual environment and install frida-tools
@@ -36,7 +37,7 @@ WORKDIR /home/ubuntu
 # Add the virtual environment to PATH
 ENV PATH="/opt/venv/bin:$PATH"
 
-ADD challenges /home/ubuntu/challenges
+ADD exercises /home/ubuntu/exercises
 
 RUN echo 'export PS1="\[\e[1;42m\] Frida-Workshop \[\e[0m\] \w$ "' >> /root/.bashrc
 

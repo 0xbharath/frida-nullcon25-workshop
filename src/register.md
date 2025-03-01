@@ -8,6 +8,7 @@ To set up and compile the target binary, follow these steps:
 
 ```sh
 # Compile the C program with necessary flags
+cd ~/exercises/register
 gcc -Wall -Wextra -O2 -fno-stack-protector -no-pie -o license_validator test.c
 ```
 

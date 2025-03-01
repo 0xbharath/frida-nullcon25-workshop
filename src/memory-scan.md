@@ -8,10 +8,12 @@ This exercise demonstrates how to manipulate program execution and memory using 
 ## Setup
 
 ### 1. Compile the C Program
+
 Ensure you have GCC installed. Then, compile the C program:
 
 ```sh
-gcc -o key_validator test.c
+cd ~/exercises/memory-scan
+gcc -o key_validator ent.c
 ```
 
 ### 2. Run the Program
