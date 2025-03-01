@@ -1,6 +1,6 @@
 # Setup
 
-Workshop repo is at *Repo Link* 
+Workshop repo is at https://github.com/0xbharath/frida-nullcon25-workshop/
 
 ## Manual setup using Docker
 
